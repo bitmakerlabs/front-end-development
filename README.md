@@ -49,7 +49,6 @@ The goal of the program is for you to come out feeling empowered to jump straigh
   - We do provide answers, we're here to help, so make sure you ask questions
 
 
-
 ## Projects You Will Build
 - Resume website
   - This will allow you to flex your muscles on
@@ -93,5 +92,10 @@ The goal of the program is for you to come out feeling empowered to jump straigh
   - Lecture screencasts are usually available the day after class
   - You will continue to have access to all of these materials after the course is over
 
+
+## Prep work
+There is a bit of prep work for this course which you should have received when you registered. The link to the prep course is:
+
+[Prep Work](https://gist.github.com/fightingtheboss/c50f877885b2025fbbfb)
 
 © 2015 Bitmaker Labs
