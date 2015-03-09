@@ -83,8 +83,10 @@ Here are some common things to look for:
 *   If it says 'Ready to brew', you're good to go!
 
 *   If it mentions that you need to install XCode or Command Line Tools,
-    you'll have to download it from https://developer.apple.com using your
-    iTunes username and password
+    follow the instructions provided. If there are no specific instructions,
+    you'll have to download Command Line Tools for your version of Mac OS X
+    from https://developer.apple.com/downloads/index.action
+    using your iTunes username and password
 
 *   Report any other errors to the Google Group or fed@bitmakerlabs.com
 
