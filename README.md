@@ -40,15 +40,6 @@ The goal of the program is for you to come out feeling empowered to jump straigh
 - Synthesize your ideas through code!
 
 
-## Expectations
-- You'll get out of this course what you put into it
-- You'll be given around 4 hours of work to do per week outside of class
-- Programming can only be learned by writing code
-  - The assignments are provided for you to deepen your understanding of course concepts
-  - We don't provide grades, stickers or certificates!
-  - We do provide answers, we're here to help, so make sure you ask questions
-
-
 ## Projects You Will Build
 - Resume website
   - This will allow you to flex your muscles on
@@ -79,6 +70,16 @@ The goal of the program is for you to come out feeling empowered to jump straigh
 - Kim and Betty will be here to go over assignments and answer any questions
 - You can also get help by emailing the Google Group with your questions
   - That way your classmates can also benefit from the answers (and maybe even answer some!)
+
+
+## Expectations
+- You'll get out of this course what you put into it
+- You'll be given around 4 hours of work to do per week outside of class
+- Programming can only be learned by writing code
+  - The assignments are provided for you to deepen your understanding of course concepts
+  - We don't provide grades, stickers or certificates
+  - We do provide answers, we're here to help, so make sure you ask questions
+    - You can ask questions in class, before or after class, during weekly TA office hours and you can get in touch with us to make appointments for code reviews or general questions outside of any of those times.
 
 
 ## The Lab & You
