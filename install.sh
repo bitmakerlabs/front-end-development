@@ -43,7 +43,8 @@ There are three tools that we'll be depending on throughout the course:
     and Bower, a package manager that will fetch JavaScript and stylesheets
     from around the web for use in your project.
 
-NOTE: Windows users should have installed Git and NodeJS prior to running this installer.
+NOTE: Windows users shouldn't use this installer. Follow the instructions at:
+      https://gist.github.com/fightingtheboss/84c0e23da219ea866e17
 
 EOF
 
@@ -56,6 +57,14 @@ fi
 
 
 if [ "$PLATFORM" = "Darwin" ]; then
+  if [ "$(command -v xcode-select)" ]; then
+    if [ ! "$(command xcode-select -p)" ]; then
+      echo "Before we start, we need to install the XCode Command Line Tools."
+      echo "Select 'Install' from the box that pops up and we'll continue here once it's done installing."
+      xcode-select --install
+    fi
+  fi
+
   if [ ! "$(command -v brew)" ]; then
     echo
     echo "The first step is to install Homebrew"
@@ -83,9 +92,10 @@ Here are some common things to look for:
 *   If it says 'Ready to brew', you're good to go!
 
 *   If it mentions that you need to install XCode or Command Line Tools,
-    follow the instructions provided. If there are no specific instructions,
-    you'll have to download Command Line Tools for your version of Mac OS X
-    from https://developer.apple.com/downloads/index.action
+    follow the instructions provided (i.e. Run 'xcode-select --install').
+    If there are no specific instructions, you'll have to download
+    Command Line Tools for your version of Mac OS X from
+    https://developer.apple.com/downloads/index.action
     using your iTunes username and password
 
 *   Report any other errors to the Google Group or fed@bitmakerlabs.com
